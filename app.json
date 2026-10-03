@@ -2,24 +2,22 @@
   "expo": {
     "name": "Forsyth Business",
     "slug": "forsyth-business",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "scheme": "forsythbusiness",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.jforsyth.business",
+      "bundleIdentifier": "com.johnforsyth.forsythbusiness",
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "Forsyth Business uses your location to track business mileage when you start a trip.",
         "NSPhotoLibraryUsageDescription": "Forsyth Business lets you attach receipt and job photos."
       }
     },
     "android": {
-      "package": "com.jforsyth.business",
+      "package": "com.johnforsyth.forsythbusiness",
       "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
     },
-    "plugins": [
-      "expo-secure-store"
-    ]
+    "plugins": ["expo-secure-store"]
   }
 }
